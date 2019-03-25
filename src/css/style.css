@@ -1,0 +1,202 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Playfair Display';
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h3,h4,h5,h6{
+  font-family: 'Raleway';
+}
+.navbar{
+  font-family: 'Raleway' !important;
+  font-weight: 600;
+}
+.navbar-brand span{
+  letter-spacing: 10px;
+  padding-top:35px;
+  padding-left: 15px;
+}
+
+.bg-dark{
+  transition: 600ms ease-in;
+  background-color: transparent !important;
+}
+.bg-dark.scrolled{
+  background-color: #EB6536 !important;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.content {
+  max-width: 40rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header-video video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-content {
+  z-index: 2;
+}
+
+.name{
+  color:#EB6536;
+  font-weight: 700;
+}
+
+.profession{
+  font-weight:300;
+}
+
+.quote{
+  font-size:22px !important;
+  font-style: italic;
+  padding-bottom: 0px !important;
+
+}
+
+.author-quote{
+  font-size: 18px !important;
+  font-style: italic;
+}
+.fa-chevron-down{
+  font-size:30px;
+  margin-top:40px;
+  color: rgba(255,255,255,.5);
+  transition: 750ms ease-in;
+}
+.fa-chevron-down:hover{
+  color: #EB6536;
+}
+
+.portfolio, .image-background{
+  min-width:100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.image-background{
+  background-image: url('../assets/sobremi.jpg');
+}
+
+.liner-one{
+  border-bottom: 2px solid #EB6536;
+  width: 30px;
+  height: 5px;
+  margin:0 auto;
+  display:block;
+  margin-bottom: 50px;
+}
+
+.title-background-white{
+  color:#EB6536;
+  margin-top:150px;
+  letter-spacing: 10px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom:5px;
+}
+.subtitle-background-white{
+  font-family: 'Playfair Display';
+  text-align: center;
+}
+.image-proyect{
+  width: 100%;
+  margin-top:60px;
+}
+.title-proyect{
+  color:#2C001E;
+  text-align: center;
+  margin-top:15px;
+  font-weight: 600;
+}
+.description-proyect{
+  text-align: center;
+}
+.btn{
+  margin: 20px auto;
+  display:block;
+}
+.about-text{
+  color:#fff;
+  max-width: 800px;
+  margin:30px auto;
+  display:block;
+  font-family: 'Raleway';
+  text-align:center;
+  font-size: 20px; 
+}
+.important{
+  font-style: italic;
+}
+.bold{
+  color: #EB6536;
+  font-weight: 600;
+}
+.links{
+ text-align:center;
+ margin-top:50px;
+}
+.link-about{
+  padding: 0 20px;
+  color: #212529;
+}
+.about{
+  margin: 50px auto;
+}
+@media (max-width: 960px) {
+  .content {
+    padding: 0 3rem 0 3rem;
+  }
+}
+@media (max-width: 768px){
+  .navbar{
+    text-align: center;
+  }
+  .col-4{
+    width:100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .portfolio, .image-background {
+    height: auto;
+}
+}
+@media (max-width: 400px){
+  .navbar-brand span{
+    letter-spacing: 5px;
+  }
+}
+@media (max-width:320px){
+  .navbar-brand span{
+    letter-spacing: 2px;
+   }
+}

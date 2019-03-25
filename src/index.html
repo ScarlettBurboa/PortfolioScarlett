@@ -1,10 +1,116 @@
-<html>
-  <head>
-    <title>Taller de comienzo de proyecto</title>
-  </head>
-  <body>
-    <button id="miBoton">Un botón botonoso</button>
-    <!-- importante poner sus scripts al final del archivo -->
-    <script src="js/app.js" type='module'></script>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway:300,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Scarlett Burboa - Portfolio</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="./assets/logo.png" alt="" srcset=""><span>SCARLETT</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">HOME
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">SOBRE MI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="home">
+    <header class="header content">
+          <div class="header-video">
+            <video src="./assets/coding.mp4" autoplay loop></video>
+          </div>
+          <div class="header-content">
+              <h2 class="name">SCARLETT BURBOA</h2>
+              <h3 class="profession">< Front-End  Developer ></h3>
+              <p class="quote">"Primero resuelve el problema, entonces escribe el código"</p>
+              <p class="author-quote">--Jhon Jhonson</p>
+              <div class="down"> <a href="#portfolio"> <i class="fas fa-chevron-down"></i></a></div>
+          </div>
+    </header>
+  </section>
+  <section class="container mt-5" id="portfolio">
+      <div class="row mt-5">
+        <div class="col-12 mt-5 portfolio">
+          <h2 class="title-background-white">PORTFOLIO</h2>
+          <div class="liner-one"></div>
+          <h4 class="subtitle-background-white">A continuación puedes ver algunos proyectos en los que he estado trabajando durante mi proceso de aprendizaje como desarrolladora Front-End</h3>
+          <div class="row">
+            <div class="col-4">
+              <img class="image-proyect" src="./assets/proyecto-burgerqueen.png" alt="" srcset="">
+              <h4 class="title-proyect"> < BurgerQueen ></BurgerQueen></h4>
+              <p class="description-proyect">App web (offline) para registro de comandas</p>
+              <button class="btn btn-outline-secondary">Ver proyecto</button>
+            </div>
+            <div class="col-4">
+                <img class="image-proyect" src="./assets/proyecto.orientados.red.social.png" alt="" srcset="">
+                <h4 class="title-proyect"> < Red Social Orientados ></BurgerQueen></h4>
+                <p class="description-proyect">Una red social para hablar de sexualidad</p>
+                <button class="btn btn-outline-secondary">Ver proyecto</button>
+            </div>
+            <div class="col-4">
+                <img class="image-proyect" src="./assets/mdlinks.png" alt="" srcset="">
+                <h4 class="title-proyect"> < MDLinks ></BurgerQueen></h4>
+                <p class="description-proyect">Módulo npm para extraer links desde archivos .md</p>
+                <button class="btn btn-outline-secondary">Ver proyecto</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mt-5 image-background" id="about">
+        <div class="row mt-5">
+          <div class="col-12 mt-5 header-content">
+            <h2 class="title-background-white">SOBRE MI</h2>
+            <p class="about-text">¡Hola! :) mi nombre es Scarlett <span class="bold"> < Front-End developer > </span>, soy una mujer de 28 años, que ha establecido como meta <span class="important">"Convertirse en una de las mejores desarrolladoras de App's y Software"</span>.<br> En el año 2013 comencé a conocer lenguajes de marcado como <span class="bold">< HTML ></span> y <span class="bold"> < CSS > </span> siempre con la curiosidad de saber cada día más, 
+            y en mis tiempos libres, desarrollaba sitios en wordpress para apoyar a una pequeña empresa con sus proyectos, y ahora nuevamente me encuentro como estudiante en<span class="bold"> < Laboratoria > </span> en donde estoy aprendiendo a desarrollar mi carrera como Front-End developer, desarrollando App's en <span class="bold"> < JS > </span>, <span class="bold"> < Nodejs > </span>, <span class="bold"> < Angular ></span>,, con toda la energía y pasión por la programación.</p>            
+          </div>
+        </div>
+      </section>
+      <section class="container mt-5" id="contact">
+          <div class="row mt-5">
+              <div class="col-12 mt-5 portfolio">
+                <h2 class="title-background-white">¡GENIAL! <br><br>AHORA A CREAR ALGO FANTÁSTICO</h2>
+                <div class="liner-one"></div>
+                <h4 class="subtitle-background-white">Si te gusta mi trabajo y tiene algún proyecto para trabajar, simplemente
+                    envíeme un mensaje directo o contácteme a través de las siguientes redes sociales que       
+                    se enumeran a continuación.</h3>
+                <button type="button" class="btn btn-outline-secondary about"><i class="fas fa-paper-plane"></i> ¡HABLEMOS!</button>
+                <div class="links">
+                  <a target="_blank" class="link-about" href="https://twitter.com/scarlettzangs?lang=es">TWITTER</a>|
+                  <a target="_blank" class="link-about" href="#">LINKEDIN</a>|
+                  <a target="_blank" class="link-about" href="https://github.com/ScarlettBurboa">GITHUB</a>|
+                  <a target="_blank" class="link-about" href="mailto:scarlett.burboa@gmail.com">EMAIL</a>
+
+                </div>
+              </div>
+            </div>
+        </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="./js/app.js"></script>
+</body>
 </html>
