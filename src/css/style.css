@@ -63,8 +63,8 @@ h1,h2,h3,h3,h4,h5,h6{
 
 .header-content {
   z-index: 2;
+  width:100%;
 }
-
 .name{
   color:#EB6536;
   font-weight: 700;
@@ -124,6 +124,9 @@ h1,h2,h3,h3,h4,h5,h6{
   text-align: center;
   padding-bottom:5px;
 }
+.margin-min{
+  margin-top: 30px !important;
+}
 .subtitle-background-white{
   font-family: 'Playfair Display';
   text-align: center;
@@ -154,6 +157,7 @@ h1,h2,h3,h3,h4,h5,h6{
   text-align:center;
   font-size: 20px; 
   padding-bottom:100px;
+  
 }
 .important{
   font-style: italic;
@@ -174,6 +178,82 @@ h1,h2,h3,h3,h4,h5,h6{
 .about{
   margin: 50px auto;
 }
+.btn-width{
+  max-width: 350px;
+  width:100%;
+}
+.iconos-box{
+max-width: 800px; 
+margin:0 auto; 
+}
+.iconos{
+  text-align:center;
+}
+.iconos i {
+  color: #fff;
+  font-size:60px;
+  padding: 30px; 
+  margin: 15px 0;
+  border: 2px #EB6536 outset;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius:50%;
+  -o-border-radius: 50%;
+}
+.delay-1{
+  -webkit-animation-name: delay1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 1;
+  animation-name: delay1;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+.delay-2{
+  -webkit-animation-name: delay2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 1.5s;
+  animation-name: delay2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 1.5s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes delay1 {
+  0%   {color: #EB6536;}
+  25%  {color: #ffffff;}
+  50%   {color: #EB6536;}
+  100%  {color: #ffffff;}
+}
+/* Standard syntax */
+@keyframes delay1 {
+  0%   {color: #EB6536;}
+  25%  {color: #ffffff;}
+  50%   {color: #EB6536;}
+  100%  {color: #ffffff;}
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes delay2 {
+  0%   {color: #EB6536;}
+  25%  {color: #ffffff;}
+  50%   {color: #EB6536;}
+  100%  {color: #ffffff;}
+}
+/* Standard syntax */
+@keyframes delay2 {
+  0%   {color: #EB6536;}
+  25%  {color: #ffffff;}
+  50%   {color: #EB6536;}
+  100%  {color: #ffffff;}
+}
+.htmlandcss  i{
+  padding: 30px 35px !important;
+}
+.skill{
+  color:#fff;
+  font-family: 'Raleway';
+}
+
 @media (max-width: 1400px){
   .portfolio, .image-background {
     height: auto;
@@ -187,18 +267,37 @@ h1,h2,h3,h3,h4,h5,h6{
 @media (max-width: 768px){
   .navbar{
     text-align: center;
+    background-color: #EB6536 !important;
   }
   .col-4{
     width:100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
-
+  .col-3{
+    width:50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .about-text{
+    text-align: justify;
+    padding: 0 10px;
+  }
+  .title-background-white{
+    margin-top:30px;
+  }
+  .h2, h2 {
+    font-size: 1.5rem !important;
+}
+.h3, h3{
+  font-size: 1.20rem !important;
+}
 }
 @media (max-width: 400px){
   .navbar-brand span{
     letter-spacing: 5px;
   }
+  
 }
 @media (max-width:320px){
   .navbar-brand span{

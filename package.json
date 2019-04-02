@@ -1,6 +1,6 @@
 {
   "name": "Portfolio-Scarlett",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Portafolio  para presentar poryectos en Laboratoria, Vanilla JS, Boostrap",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "author": "Scarlett Alejandra Burboa Garate",
   "license": "ISC",
+  "homepage": "https://scarlettburboa.github.io",
   "devDependencies": {
     "@babel/preset-env": "^7.3.1",
     "babel-jest": "^24.0.0",
