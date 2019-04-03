@@ -1,16 +1,13 @@
 *{
   box-sizing: border-box;
 }
-
 html{
   scroll-behavior: smooth;
 }
-
 body{
   font-family: 'Playfair Display';
   overflow-x: hidden;
 }
-
 h1,h2,h3,h3,h4,h5,h6{
   font-family: 'Raleway';
 }
@@ -23,7 +20,6 @@ h1,h2,h3,h3,h4,h5,h6{
   padding-top:35px;
   padding-left: 15px;
 }
-
 .bg-dark{
   transition: 600ms ease-in;
   background-color: transparent !important;
@@ -31,14 +27,12 @@ h1,h2,h3,h3,h4,h5,h6{
 .bg-dark.scrolled{
   background-color: #EB6536 !important;
 }
-
 .header {
   height: 100vh;
   display: flex;
   align-items: center;
   color: #fff;
 }
-
 .content {
   max-width: 40rem;
   padding-left: 1rem;
@@ -46,7 +40,6 @@ h1,h2,h3,h3,h4,h5,h6{
   margin: auto;
   text-align: center;
 }
-
 .header-video {
   position: absolute;
   top: 0;
@@ -55,12 +48,10 @@ h1,h2,h3,h3,h4,h5,h6{
   height: 100vh;
   overflow: hidden;
 }
-
 .header-video video {
   min-width: 100%;
   min-height: 100%;
 }
-
 .header-content {
   z-index: 2;
   width:100%;
@@ -69,18 +60,14 @@ h1,h2,h3,h3,h4,h5,h6{
   color:#EB6536;
   font-weight: 700;
 }
-
 .profession{
   font-weight:300;
 }
-
 .quote{
   font-size:22px !important;
   font-style: italic;
   padding-bottom: 0px !important;
-
 }
-
 .author-quote{
   font-size: 18px !important;
   font-style: italic;
@@ -94,7 +81,6 @@ h1,h2,h3,h3,h4,h5,h6{
 .fa-chevron-down:hover{
   color: #EB6536;
 }
-
 .portfolio, .image-background{
   min-width:100%;
   min-height: 100%;
@@ -102,11 +88,9 @@ h1,h2,h3,h3,h4,h5,h6{
   height: 100vh;
   overflow: hidden;
 }
-
 .image-background{
-  background-image: url('../assets/sobremi.jpg');
+  background-image: url('../assets/sobremi.jpeg');
 }
-
 .liner-one{
   border-bottom: 2px solid #EB6536;
   width: 30px;
@@ -115,7 +99,6 @@ h1,h2,h3,h3,h4,h5,h6{
   display:block;
   margin-bottom: 50px;
 }
-
 .title-background-white{
   color:#EB6536;
   margin-top:150px;
@@ -167,9 +150,9 @@ h1,h2,h3,h3,h4,h5,h6{
   font-weight: 600;
 }
 .links{
- text-align:center;
- margin-top:50px;
- padding-bottom:100px;
+  text-align:center;
+  margin-top:50px;
+  padding-bottom:100px;
 }
 .link-about{
   padding: 0 20px;
@@ -185,6 +168,7 @@ h1,h2,h3,h3,h4,h5,h6{
 .iconos-box{
 max-width: 800px; 
 margin:0 auto; 
+padding-top: 40px;
 }
 .iconos{
   text-align:center;
@@ -193,67 +177,29 @@ margin:0 auto;
   color: #fff;
   font-size:60px;
   padding: 30px; 
-  margin: 15px 0;
+  margin: 0;
   border: 2px #EB6536 outset;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius:50%;
   -o-border-radius: 50%;
 }
-.delay-1{
-  -webkit-animation-name: delay1; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-  -webkit-animation-iteration-count: 1;
-  animation-name: delay1;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-}
-.delay-2{
-  -webkit-animation-name: delay2; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-delay: 1.5s;
-  animation-name: delay2;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-delay: 1.5s;
-}
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes delay1 {
-  0%   {color: #EB6536;}
-  25%  {color: #ffffff;}
-  50%   {color: #EB6536;}
-  100%  {color: #ffffff;}
-}
-/* Standard syntax */
-@keyframes delay1 {
-  0%   {color: #EB6536;}
-  25%  {color: #ffffff;}
-  50%   {color: #EB6536;}
-  100%  {color: #ffffff;}
-}
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes delay2 {
-  0%   {color: #EB6536;}
-  25%  {color: #ffffff;}
-  50%   {color: #EB6536;}
-  100%  {color: #ffffff;}
-}
-/* Standard syntax */
-@keyframes delay2 {
-  0%   {color: #EB6536;}
-  25%  {color: #ffffff;}
-  50%   {color: #EB6536;}
-  100%  {color: #ffffff;}
-}
-.htmlandcss  i{
-  padding: 30px 35px !important;
-}
 .skill{
   color:#fff;
   font-family: 'Raleway';
+  margin: 35px 0px;
+  padding-bottom: 25px;
 }
-
+.btn-outline-secondary {
+  color: #2C001E !important;
+  border-color: #2C001E !important;
+}
+.btn-outline-secondary:hover {
+  color: #fff !important;
+  background-color: #2C001E !important;
+  border-color: #2C001E !important;
+}
+/* MEDIA QUERY RESPONSIVE DESIGN*/
 @media (max-width: 1400px){
   .portfolio, .image-background {
     height: auto;
