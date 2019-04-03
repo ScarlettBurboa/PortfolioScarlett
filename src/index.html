@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/logo.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway:300,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -14,7 +15,7 @@
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="./assets/logo.png" alt="" srcset=""><span>SCARLETT</span></a>
+      <a class="navbar-brand" href="index.html"><img src="./assets/logo.jpeg" alt="" srcset=""><span>SCARLETT</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -60,22 +61,31 @@
           <h4 class="subtitle-background-white">A continuación puedes ver algunos proyectos en los que he estado trabajando durante mi proceso de aprendizaje como desarrolladora Front-End</h3>
           <div class="row">
             <div class="col-4">
-              <img class="image-proyect" src="./assets/proyecto-burgerqueen.png" alt="" srcset="">
+              <img class="image-proyect" src="./assets/proyecto-burgerqueen.jpeg" alt="" srcset="">
               <h4 class="title-proyect"> < BurgerQueen ></BurgerQueen></h4>
-              <p class="description-proyect">App web (offline) para registro de comandas</p>
-              <button class="btn btn-outline-secondary">Ver proyecto</button>
-            </div>
+              <p class="description-proyect">App web (offline) para registro de comandas con Firebase</p>
+              <div class="row">
+                <div class="col-6"><button class="btn btn-outline-secondary"><i class="fas fa-laptop-code"></i> Demo</button></div>
+                <div class="col-6"><button class="btn btn-outline-secondary"><i class="fab fa-github"></i> Github</button></div>
+            </div> 
+           </div>
             <div class="col-4">
-                <img class="image-proyect" src="./assets/proyecto.orientados.red.social.png" alt="" srcset="">
+                <img class="image-proyect" src="./assets/proyecto.orientados.red.social.jpeg" alt="" srcset="">
                 <h4 class="title-proyect"> < Red Social Orientados ></BurgerQueen></h4>
-                <p class="description-proyect">Una red social para hablar de sexualidad</p>
-                <button class="btn btn-outline-secondary">Ver proyecto</button>
+                <p class="description-proyect">Una red social para hablar de sexualidad, versión responsive</p>
+                <div class="row">
+                    <div class="col-6"><button class="btn btn-outline-secondary"><i class="fas fa-laptop-code"></i> Demo</button></div>
+                    <div class="col-6"><button class="btn btn-outline-secondary"><i class="fab fa-github"></i> Github</button></div>
+                </div>               
             </div>
             <div class="col-4">
-                <img class="image-proyect" src="./assets/mdlinks.png" alt="" srcset="">
+                <img class="image-proyect" src="./assets/mdlinks.jpeg" alt="" srcset="">
                 <h4 class="title-proyect"> < MDLinks ></BurgerQueen></h4>
                 <p class="description-proyect">Módulo npm para extraer links desde archivos .md</p>
-                <button class="btn btn-outline-secondary">Ver proyecto</button>
+                <div class="row">
+                  <div class="col-6"><button class="btn btn-outline-secondary"><i class="fas fa-laptop-code"></i> Demo</button></div>
+                  <div class="col-6"><button class="btn btn-outline-secondary"><i class="fab fa-github"></i> Github</button></div>
+              </div> 
             </div>
           </div>
         </div>
@@ -93,14 +103,18 @@
               <h2 class="title-background-white margin-min">EXPERIENCIA TÉCNICA</h2>
               <div class="liner-one"></div>
             <div class="iconos-box row">
-              <div class="col-3 iconos delay-1 htmlandcss"><i class="fab fa-html5"></i><p class="skill">HTML5</p></div>
-              <div class="col-3 iconos delay-2 htmlandcss"><i class="fab fa-css3-alt "></i><p class="skill">CSS3</p></div>
-              <div class="col-3 iconos delay-3"><i class="fab fa-js"></i><p class="skill">JavaScript</p></div>
-              <div class="col-3 iconos delay-4"><i class="fab fa-wordpress"></i><p class="skill">Wordpress</p></div>
-              <div class="col-3 iconos delay-5"><i class="fab fa-angular"></i><p class="skill">Angular</p></div>
-              <div class="col-3 iconos delay-6"><i class="fab fa-node-js"></i><p class="skill">NodeJS</p></div>
-              <div class="col-3 iconos delay-7"><i class="fab fa-github"></i><p class="skill">Github</p></div>
-              <div class="col-3 iconos delay-8"><i class="fab fa-bootstrap"></i><p class="skill">Boostrap</p></div>
+              <div class="col-3 iconos"><i class="devicon-html5-plain"></i><p class="skill">HTML5</p></div>
+              <div class="col-3 iconos"><i class="devicon-css3-plain"></i><p class="skill">CSS3</p></div>
+              <div class="col-3 iconos"><i class="devicon-javascript-plain"></i><p class="skill">JavaScript</p></div>
+              <div class="col-3 iconos"><i class="devicon-wordpress-plain"></i><p class="skill">Wordpress</p></div>
+              <div class="col-3 iconos"><i class="devicon-angularjs-plain"></i><p class="skill">Angular</p></div>
+              <div class="col-3 iconos"><i class="devicon-nodejs-plain"></i><p class="skill">NodeJS</p></div>
+              <div class="col-3 iconos"><i class="devicon-git-plain"></i><p class="skill">Git</p></div>
+              <div class="col-3 iconos"><i class="devicon-github-plain"></i><p class="skill">Github</p></div>
+              <div class="col-3 iconos"><i class="devicon-bootstrap-plain"></i><p class="skill">Boostrap</p></div>
+              <div class="col-3 iconos"><i class="devicon-photoshop-plain"></i><p class="skill">Photoshop</p></div>
+              <div class="col-3 iconos"><i class="devicon-illustrator-line"></i><p class="skill">Illustrator</p></div>
+              <div class="col-3 iconos"><i class="devicon-visualstudio-plain"></i><p class="skill">Visual Studio Code</p></div>
             </div>
           </div>
           
@@ -111,8 +125,8 @@
               <div class="col-12 mt-5 portfolio">
                 <h2 class="title-background-white">¡GENIAL! <br><br>AHORA A CREAR ALGO FANTÁSTICO</h2>
                 <div class="liner-one"></div>
-                <h4 class="subtitle-background-white">Si te gusta mi trabajo y tiene algún proyecto para trabajar, simplemente
-                    envíeme un mensaje directo o contácteme a través de las siguientes redes sociales que       
+                <h4 class="subtitle-background-white">Si te gusta mi trabajo y tienes algún proyecto para trabajar, simplemente
+                    envíame un mensaje directo o contácteme a través de las siguientes redes sociales que       
                     se enumeran a continuación.</h3>
                 <a href="mailto:scarlett.burboa@gmail.com" class="btn btn-outline-secondary about btn-width"><i class="fas fa-paper-plane"></i> ¡HABLEMOS!</a>
                 <div class="links">
