@@ -59,35 +59,7 @@
           <h2 class="title-background-white">PORTAFOLIO</h2>
           <div class="liner-one"></div>
           <h4 class="subtitle-background-white">A continuación puedes ver algunos proyectos en los que he estado trabajando durante mi proceso de aprendizaje como desarrolladora Front-End</h3>
-          <div class="row">
-            <div class="col-4">
-              <img class="image-proyect" src="./assets/proyecto-burgerqueen.jpeg" alt="" srcset="">
-              <h4 class="title-proyect"> < BurgerQueen ></BurgerQueen></h4>
-              <p class="description-proyect">App web (offline) para registro de comandas con Firebase</p>
-              <div class="row">
-                <div class="col-6"><button class="btn btn-outline-secondary"><i class="fas fa-laptop-code"></i> Demo</button></div>
-                <div class="col-6"><button class="btn btn-outline-secondary"><i class="fab fa-github"></i> Github</button></div>
-            </div> 
-           </div>
-            <div class="col-4">
-                <img class="image-proyect" src="./assets/proyecto.orientados.red.social.jpeg" alt="" srcset="">
-                <h4 class="title-proyect"> < Red Social Orientados ></BurgerQueen></h4>
-                <p class="description-proyect">Una red social para hablar de sexualidad, versión responsive</p>
-                <div class="row">
-                    <div class="col-6"><button class="btn btn-outline-secondary"><i class="fas fa-laptop-code"></i> Demo</button></div>
-                    <div class="col-6"><button class="btn btn-outline-secondary"><i class="fab fa-github"></i> Github</button></div>
-                </div>               
-            </div>
-            <div class="col-4">
-                <img class="image-proyect" src="./assets/mdlinks.jpeg" alt="" srcset="">
-                <h4 class="title-proyect"> < MDLinks ></BurgerQueen></h4>
-                <p class="description-proyect">Módulo npm para extraer links desde archivos .md</p>
-                <div class="row">
-                  <div class="col-6"><button class="btn btn-outline-secondary"><i class="fas fa-laptop-code"></i> Demo</button></div>
-                  <div class="col-6"><button class="btn btn-outline-secondary"><i class="fab fa-github"></i> Github</button></div>
-              </div> 
-            </div>
-          </div>
+          <div id="projectsId" class="row"></div>
         </div>
       </div>
     </section>
@@ -139,7 +111,8 @@
               </div>
             </div>
         </section>
-   <script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+        <script>
           // Initialize Firebase
           var config = {
             apiKey: "AIzaSyClwmKAL9fkqhCLPmu_s4tPboTtXa_ails",
@@ -149,13 +122,12 @@
             storageBucket: "portfolioscarlett.appspot.com",
             messagingSenderId: "624510504532"
           };
-            firebase.initializeApp(config);
-  </script>      
+          firebase.initializeApp(config);
+        </script>    
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="./js/main.js"></script>
   <script src="./js/data.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
 </body>
 </html>
