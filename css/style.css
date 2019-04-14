@@ -169,11 +169,13 @@ h1,h2,h3,h3,h4,h5,h6{
 max-width: 800px; 
 margin:0 auto 50px auto; 
 padding-top: 40px;
+
 }
 .iconos{
   text-align:center;
+
 }
-.iconos i {
+.iconos i, .skill{
   color: #fff;
   font-size:60px;
   padding: 30px; 
@@ -183,12 +185,14 @@ padding-top: 40px;
   -webkit-border-radius: 50%;
   -moz-border-radius:50%;
   -o-border-radius: 50%;
+
 }
 .skill{
-  color:#fff;
-  font-family: 'Raleway';
-  margin: 35px 0px;
-  padding-bottom: 25px;
+  font-family: 'Raleway' !important;
+  margin: 10px 0px 35px 0px !important;
+  font-size: 15px !important;
+  border:none !important;
+  padding-bottom: 25px !important;
 }
 .btn-outline-secondary {
   color: #2C001E !important;
