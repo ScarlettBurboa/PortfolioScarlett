@@ -48,7 +48,7 @@ h1,h2,h3,h3,h4,h5,h6{
   height: 100vh;
   overflow: hidden;
 }
-.header-video video {
+.header-video img {
   min-width: 100%;
   min-height: 100%;
 }
